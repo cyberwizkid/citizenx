@@ -310,7 +310,6 @@ func (s *Server) handleIncidentReport() gin.HandlerFunc {
 				log.Println("Invalid profile image URL type, using default")
 			}
 		}
-
 		// Generate a unique report ID
 		reportID, err := generateID()
 		if err != nil {
